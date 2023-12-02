@@ -1,0 +1,19 @@
+{
+  "name": "gmail_api",
+  "version": "1.0.0",
+  "description": "this is a Node.js based app that is able to respond to emails sent to our Gmail mailbox while we are out on a vacation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "gmailapi"
+  ],
+  "author": "Sahil Sayyad",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^105.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
